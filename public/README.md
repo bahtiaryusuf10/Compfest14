@@ -11,7 +11,7 @@ This website has build with HTML, PHP V8.1.2, Bootstrap (V4.3 and V5.0), and Jav
 Use the package manager [XAMPP](https://www.apachefriends.org/) to install Kantin Kejujuran. Save the project in folder htdocs, and run using your browser.
 
 ```bash
-The steps to run this project :
+The steps to run this project:
 
 1. Open XAMPP program,
 2. Start Apache and MYSQL,
@@ -36,3 +36,5 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 Muhammad Yusuf Bahtiar - @iyarmuhammad- mhmmdbachtiar10@gmail.com
 
 Project Link: https://github.com/bahtiaryusuf/Compfest14
+
+Can be accessed at https://sentosa-my.herokuapp.com
