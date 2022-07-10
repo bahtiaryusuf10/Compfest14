@@ -1,0 +1,65 @@
+.main-nav {
+  background-color: #242423;
+}
+.main-nav .navbar-nav .nav-link.active,
+.main-nav .navbar-nav .nav-link2:hover {
+  color: #f5cb5c;
+}
+
+.navbar.scrolled {
+  background-color: #f5cb5c;
+  transition: background-color 0.5s ease;
+  box-shadow: 0px -10px 30px #998243;
+}
+.navbar.scrolled a.nav-link {
+  color: black;
+}
+.navbar.scrolled a.nav-link.active {
+  color: #615f5f;
+}
+.navbar img.main-logo {
+  max-width: 40px;
+}
+
+.main {
+  background-color: #242423;
+  color: white;
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+.main-footer-menu img {
+  max-width: 70px;
+}
+.main-footer-menu h3 {
+  color: white;
+  margin-bottom: 15px;
+}
+.main-footer-menu a {
+  color: white;
+  text-decoration: none;
+}
+.main-footer-menu a:hover {
+  color: #f5cb5c;
+}
+.main-footer-menu ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.main-footer-menu ul li {
+  margin-bottom: 10px;
+}
+
+.main-footer-copyright {
+  background-color: #333533;
+  color: #f5cb5c;
+}
+
+.contact {
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

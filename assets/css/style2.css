@@ -1,0 +1,135 @@
+/* LOGIN */
+.login {
+    font-family: "Karla", sans-serif;
+    background-color: #242423;
+    min-height: 100vh;
+}
+
+.brand-wrapper {
+    margin-bottom: 19px;
+}
+
+.brand-wrapper .logo {
+    height: 37px;
+}
+
+.login-card {
+    border: 0;
+    border-radius: 27.5px;
+    overflow: hidden;
+}
+
+.login-card-img {
+    border-radius: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.register-card-img {
+    margin-left: 42px;
+    border-radius: 0;
+    position: absolute;
+    width: 80%;
+    height: 93%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.login-card .card-body {
+    padding: 85px 60px 60px;
+}
+
+.login-card-description {
+    font-size: 25px;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 23px;
+}
+
+.login-card form {
+    max-width: 326px;
+}
+
+.login-details .input-box input {
+    border: 2px solid #d5dae2;
+    border-radius: 30px;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    min-height: 45px;
+    font-size: 15px;
+    line-height: 15;
+    font-weight: normal;
+    transition: all 0.4s ease;
+}
+
+.login-card .form-control::-webkit-input-placeholder {
+    color: #919aa3;
+}
+
+.login-card .form-control::-moz-placeholder {
+    color: #919aa3;
+}
+
+.login-card .form-control:-ms-input-placeholder {
+    color: #919aa3;
+}
+
+.login-card .form-control::-ms-input-placeholder {
+    color: #919aa3;
+}
+
+.login-card .form-control::placeholder {
+    color: #919aa3;
+}
+
+.login-card .login-btn {
+    padding: 13px 20px 12px;
+    background-color: #000;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.login-card .login-btn:hover {
+    border: 1px solid #000;
+    background-color: transparent;
+    color: #000;
+}
+
+.login-card .forgot-password-link {
+    font-size: 14px;
+    color: #919aa3;
+    margin-bottom: 12px;
+}
+
+.login-card-footer-text {
+    font-size: 16px;
+    color: #0d2366;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+    .login-card-footer-text {
+        margin-bottom: 24px;
+    }
+}
+
+.login-card-footer-nav a {
+    font-size: 14px;
+    color: #919aa3;
+}
+
+.login-lecturer-card-img {
+    border-radius: 0;
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    margin-top: 8rem;
+    margin-left: 4rem;
+}
