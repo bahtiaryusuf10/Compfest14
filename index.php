@@ -31,14 +31,18 @@ if (isset($_GET['type'])) {
         <img src="assets/logo/logo1.png" class="main-logo me-2">
         <strong>Kantin Kejujuran</strong>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <div class="navbar-nav ms-auto py-2">
-          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-          <a class="nav-link" aria-current="page" href="login.php">Login</a>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto py-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.php">Login</a>
+          </li>
+        </ul>
       </div>
     </div>
   </header>
@@ -70,7 +74,7 @@ if (isset($_GET['type'])) {
         <div class="row">
           <div class="col-lg-3 mb-3">
             <div class="mb-3">
-              <a href="home.html">
+              <a href="index.php">
                 <img src="assets/logo/logo1.png">
               </a>
             </div>
